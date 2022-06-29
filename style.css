@@ -10,7 +10,7 @@
 body {
     width: 100%;
     min-height: 100vh;
-    background-color: rgb(243, 243, 243);
+    background-color: rgba(243, 243, 243, 0.714);
     margin: 0;
     padding: 0;
     display: flex;
@@ -27,7 +27,7 @@ body {
 
 .instagram-phone {
     display: flex;
-    align-items: center;
+    align-items: center; 
     justify-content: center;
     width: 50%;
 }
@@ -50,10 +50,10 @@ body {
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    background-color: #ffffff;
-    width: 100%;
+    background-color: #ffffffa0;
+    width: 90%;
     padding: 1.3rem 0;
-    border: 1px solid lightgray;
+    border: 2px solid lightgray;
 }
 
 .group:nth-child(1) {
@@ -77,7 +77,7 @@ body {
 }
 
 .instagram-login {
-    background-color: #0095f6;
+    background-color: #1000f6a7;
     color: #ffffff;
     padding: 8px;
     border-radius: 4px;
